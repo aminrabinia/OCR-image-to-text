@@ -35,7 +35,7 @@ def gradio_infer(myimg):
 io = gr.Interface(fn=gradio_infer, 
 	inputs=gr.Image(),
 	outputs=gr.Textbox(),
-	examples=[["testimg.jpg"], ["testimg2.png"]],
+	examples=[["testimg.jpg"], ["testimg2.jpg"]],
 	allow_flagging = 'never',
 	css="footer {visibility: hidden}",
 	live=True
