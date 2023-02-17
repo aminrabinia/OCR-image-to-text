@@ -1,6 +1,0 @@
-name: ocr-txt-img
-on: [push]
-jobs:
-  run:
-  
-  
